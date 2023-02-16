@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&family=Sassy+Frass&display=swap");
+
+body {
+  background-color: #e48f8c;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Sassy Frass", cursive;
+  font-size: 100px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+h2 {
+  margin-top: 5px;
+}
+.concerts {
+  display: flex;
+  justify-content: space-evenly;
+  border: solid 1px white;
+  margin: 40px;
+}
+
+.concerts img {
+  margin: 20px;
+  justify-content: left;
+}
+
+.concerts a {
+  color: white;
+}
+
+.concertInfo {
+  display: inline-block;
+  padding: 50px;
+}
